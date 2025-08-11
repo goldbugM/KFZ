@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>PSB Rhein-Main | Kfz Gutachter & TÜV Service</title>
+    <meta name="description" content="PSB Rhein-Main - Unabhängiger Kfz Gutachter und TÜV-Service in Frankfurt am Main: schnelle Termine, transparente Gutachten, rechtssicher – für Versicherung, Kauf & Zulassung." />
+    <meta name="author" content="PSB Rhein-Main" />
+
+    <meta property="og:title" content="PSB Rhein-Main | Kfz Gutachter & TÜV Service" />
+    <meta property="og:description" content="PSB Rhein-Main - Unabhängiger Kfz Gutachter und TÜV-Service in Frankfurt am Main: schnelle Termine, transparente Gutachten, rechtssicher." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./placeholder.svg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@psb_rhein_main" />
+    <meta name="twitter:image" content="./placeholder.svg" />
+    
+    <script>
+      // GitHub Pages SPA redirect script
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
