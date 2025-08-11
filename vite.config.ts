@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 // https://vitejs.dev/config/
+// Force GitHub Actions redeploy - PSB Rhein-Main
 export default defineConfig(({ mode }) => ({
   base: mode === 'production' ? '/KFZ/' : '/',
   server: {
