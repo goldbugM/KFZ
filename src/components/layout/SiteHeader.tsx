@@ -6,7 +6,7 @@ const SiteHeader = () => {
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/70 backdrop-blur-xl">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link to="/" className="flex items-center gap-2">
-          <span className="font-display text-lg tracking-wide">KFZ Expert Frankfurt</span>
+          <span className="font-display text-lg tracking-wide">PSB Rhein-Main</span>
         </Link>
         <nav className="hidden gap-6 md:flex">
           <a href="#leistungen" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Leistungen</a>

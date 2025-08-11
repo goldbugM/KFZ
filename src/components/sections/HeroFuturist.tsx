@@ -44,7 +44,7 @@ const HeroFuturist = () => {
             Unabhängig · TÜV · Frankfurt am Main
           </p>
           <h1 className="font-display text-5xl leading-tight sm:text-6xl lg:text-7xl text-foreground">
-            Kfz Gutachter & TÜV Service Frankfurt am Main
+            PSB Rhein-Main — Kfz Gutachter & TÜV Service
           </h1>
           <p className="mt-6 text-xl text-muted-foreground sm:text-2xl lg:text-2xl max-w-3xl">
             Transparent, rechtssicher und schnell – digitale Abwicklung, 24–48h Gutachten und zertifizierte Expertise für Versicherung, Kauf/Verkauf und Zulassung.

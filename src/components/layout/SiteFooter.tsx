@@ -7,7 +7,7 @@ const SiteFooter = () => {
           <p className="mt-2 text-muted-foreground">Frankfurt am Main · Rhein-Main-Region</p>
           <div className="mt-4 space-y-1 text-sm">
             <p><a href="tel:+496912345678" className="hover:underline">+49 (69) 123 45 678</a> · 24/7 Notfall</p>
-            <p><a href="mailto:service@kfz-expert-frankfurt.de" className="hover:underline">service@kfz-expert-frankfurt.de</a></p>
+            <p><a href="mailto:service@psb-rhein-main.de" className="hover:underline">service@psb-rhein-main.de</a></p>
           </div>
         </div>
         <div>

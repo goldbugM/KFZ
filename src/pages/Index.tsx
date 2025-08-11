@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet-async";
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  name: "KFZ Expert Frankfurt — Kfz Gutachter & TÜV Service",
+  name: "PSB Rhein-Main — Kfz Gutachter & TÜV Service",
   areaServed: "Frankfurt am Main, Rhein-Main",
   url: typeof window !== "undefined" ? window.location.href : "https://example.com/",
   telephone: "+49-69-12345678",
@@ -31,8 +31,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Kfz Gutachter & TÜV Frankfurt | Unabhängig & schnell</title>
-        <meta name="description" content="Unabhängiger Kfz Gutachter und TÜV-Service in Frankfurt am Main: schnelle Termine, transparente Gutachten, rechtssicher – für Versicherung, Kauf & Zulassung." />
+        <title>PSB Rhein-Main | Kfz Gutachter & TÜV Service</title>
+        <meta name="description" content="PSB Rhein-Main - Unabhängiger Kfz Gutachter und TÜV-Service in Frankfurt am Main: schnelle Termine, transparente Gutachten, rechtssicher – für Versicherung, Kauf & Zulassung." />
         <link rel="canonical" href={canonical} />
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
       </Helmet>
